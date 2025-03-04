@@ -13,35 +13,70 @@
     <link rel="stylesheet" href="./styles/styles-background.css">
     <link rel="stylesheet" href="./styles/styles-cover.css">
     <link rel="stylesheet" href="./styles/styles-about.css">
-    <link rel="stylesheet" href="./styles/styles-proyects.css">
+    <link rel="stylesheet" href="./styles/styles-projects.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar">
             <ul>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contacto</a></li>
-                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Education</a></li>
             </ul>
         </nav>
 
         <section class="hero">
             <div class="content">
                 <h1>Agustín Álvarez</h1>
-                <h2>Desarrollador Web</h2>
-                <a href="#projects" class="btn">Ver mis proyectos</a>
+                <h2>Web Developer</h2>
+                <a href="#projects" class="btn">View Projects</a>
             </div>
         </section>
     </header>
 
     <section id="projects">
-        <h2 id="projects-h2">PROYECTOS</h2>
+        <h2 id="projects-h2">PROJECTS</h2>
         <div class="container" id="projects-container">
         </div>
     </section>
+
+    <section id="about">
+        <h2 id="about-h2">ABOUT</h2>
+
+        <div class="divs-container">
+            <div class="about-section">
+                <i class="fas fa-code"></i>
+                <p>Tengo una base sólida en <strong>HTML, CSS y JavaScript</strong>, desarrollando proyectos para
+                    mejorar
+                    mis habilidades y conocimientos.</p>
+            </div>
+
+            <div class="about-section">
+                <i class="fas fa-graduation-cap"></i>
+                <p>Actualmente, estoy realizando un curso de <strong>algoritmos y estructuras de datos</strong> y otro
+                    de
+                    <strong>Git y GitHub</strong> para seguir aprendiendo.
+                </p>
+            </div>
+
+            <div class="about-section">
+                <i class="fas fa-briefcase"></i>
+                <p>Estoy buscando activamente una <strong>oportunidad laboral</strong> donde pueda aplicar mis
+                    conocimientos
+                    y seguir creciendo profesionalmente.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
     <script src="./scripts/script-particles.js"></script>
-    <script src="./scripts/script-proyects.js"></script>
+    <script type="module" src="./scripts/script-projects-data.js"></script>
+    <script type="module" src="./scripts/script-projects.js"></script>
     <script>window.onload = function () {
             window.scrollTo(0, 0);
         };</script>
