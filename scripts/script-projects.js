@@ -10,7 +10,7 @@ function renderProjects() {
         projectCard.classList.add('project-card');
 
         projectCard.innerHTML = `
-            <img src="${project.imageUrl}" alt="${project.title}">
+            <img src="${project.imageUrl}" alt="${project.title}" loading="lazy">
             <h3>${project.title}</h3>
             <p>${project.description} ${project.features}</p>
             <a href="${project.linkDeploy}" target="_blank">Ver Deploy</a>
