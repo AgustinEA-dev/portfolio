@@ -1,4 +1,4 @@
-import { projects } from "./script-projects-data.js"
+import { projects } from "./script-data.js"
 
 function renderProjects() {
     const container = document.getElementById('projects-container');
@@ -35,7 +35,7 @@ function renderProjects() {
 
 
 function animateTitle() {
-    const titles = document.querySelectorAll('#projects-h2, #about-h2');
+    const titles = document.querySelectorAll('#projects-h2, #about-h2, #education-h2');
     const aboutSections = document.querySelectorAll('.about-section');
 
     const observer = new IntersectionObserver((entries, observer) => {

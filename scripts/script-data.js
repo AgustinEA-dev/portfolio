@@ -40,3 +40,13 @@ export const projects = [
         linkGitHub: "https://github.com/AgustinEA-dev/animations.git"
     },
 ];
+
+export const titles = [
+    { src: "assets/nucba-diseño-web.jpg", alt: "Curso 1" },
+    { src: "assets/nucba-javascript.jpg", alt: "Curso 2" },
+    { src: "assets/nucba-react.jpg", alt: "Curso 3" },
+    { src: "assets/nucba-ux-ui-degree.jpg", alt: "Curso 4" },
+    { src: "assets/udemy-complete-react.jpg", alt: "Curso 5" },
+    { src: "assets/udemy-modern-web-animations.jpg", alt: "Curso 6" },
+    { src: "assets/udemy-web-developer-bootcamp.jpg", alt: "Curso 7" },
+];
