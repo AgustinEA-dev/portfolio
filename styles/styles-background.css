@@ -7,6 +7,7 @@
 header {
     margin: 0;
     height: 100dvh;
+    transition: height 0.3s ease-in-out;
     background: radial-gradient(circle, #0f0c29, #302b63, #24243e);
     overflow: hidden;
     display: flex;
