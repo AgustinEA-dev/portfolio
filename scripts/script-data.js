@@ -50,3 +50,62 @@ export const titles = [
     { src: "assets/udemy-modern-web-animations.jpg", alt: "Curso 6" },
     { src: "assets/udemy-web-developer-bootcamp.jpg", alt: "Curso 7" },
 ];
+
+export const translations = {
+    en: {
+        navbar: {
+            projects: "Projects",
+            about: "About",
+            education: "Education"
+        },
+        projects: "Projects",
+        about: "About",
+        education: "Education",
+        heroTitle: "Agustín Álvarez",
+        heroSubtitle: "Web Developer",
+        viewProjects: "View Projects",
+        aboutTitle: "ABOUT",
+        aboutSections: [
+            "I have a solid foundation in <strong>HTML, CSS, and JavaScript</strong>, developing projects to improve my skills and knowledge.",
+            "Currently, I am taking a course on <strong>algorithms and data structures</strong> and another on <strong>Git and GitHub</strong> to continue learning.",
+            "I am actively looking for a <strong>job opportunity</strong> where I can apply my knowledge and continue growing professionally.",
+            "Besides programming, I am passionate about <strong>visual art</strong> and love creating digital drawings."
+        ],
+        educationTitle: "Education",
+        showMore: "Show more",
+        footerLinks: {
+            projects: "Projects",
+            about: "About",
+            education: "Education"
+        },
+        footerText: "&copy; 2025 Agustín Álvarez. All rights reserved."
+    },
+    es: {
+        navbar: {
+            projects: "Proyectos",
+            about: "Sobre mí",
+            education: "Educación"
+        },
+        projects: "Proyectos",
+        about: "Sobre mí",
+        education: "Educación",
+        heroTitle: "Agustín Álvarez",
+        heroSubtitle: "Desarrollador Web",
+        viewProjects: "Ver Proyectos",
+        aboutTitle: "SOBRE MÍ",
+        aboutSections: [
+            "Tengo una base sólida en <strong>HTML, CSS y JavaScript</strong>, desarrollando proyectos para mejorar mis habilidades y conocimientos.",
+            "Actualmente, estoy realizando un curso de <strong>algoritmos y estructuras de datos</strong> y otro de <strong>Git y GitHub</strong> para seguir aprendiendo.",
+            "Estoy buscando activamente una <strong>oportunidad laboral</strong> donde pueda aplicar mis conocimientos y seguir creciendo profesionalmente.",
+            "Además de la programación, soy un amante del <strong>arte visual</strong> y me encanta crear dibujos digitales."
+        ],
+        educationTitle: "Educación",
+        showMore: "Mostrar más",
+        footerLinks: {
+            projects: "Proyectos",
+            about: "Sobre mí",
+            education: "Educación"
+        },
+        footerText: "&copy; 2025 Agustín Álvarez. Todos los derechos reservados."
+    }
+};
