@@ -11,6 +11,7 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles-background.css">
+    <link rel="stylesheet" href="./styles/styles-menu-movil.css">
     <link rel="stylesheet" href="./styles/styles-cover.css">
     <link rel="stylesheet" href="./styles/styles-about.css">
     <link rel="stylesheet" href="./styles/styles-projects.css">
@@ -20,15 +21,25 @@
 </head>
 
 <body>
-
+    <div class="movil-menu" id="movilMenu">
+        <ul class="nav-links" id="movilLinks">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><button id="changeLanguageButton" class="language-toggle">EN/ES</button></li>
+        </ul>
+    </div>
     <header>
         <nav class="navbar">
-            <ul>
+            <ul class="nav-links" id="navLinks">
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><button id="changeLanguageButton" class="language-toggle">EN/ES</button></li>
             </ul>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
 
         <section class="hero">
@@ -110,8 +121,8 @@
         </div>
     </footer>
 
-    <script src="./scripts/script-custom-cursor.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script src="./scripts/script-menu-movil.js"></script>
     <script src="./scripts/script-particles.js"></script>
     <script type="module" src="./scripts/script-translations.js"></script>
     <script type="module" src="./scripts/script-data.js"></script>

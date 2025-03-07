@@ -3,6 +3,8 @@ html {
 }
 
 body {
+    font-family: "Exo 2", serif;
+    font-display: swap;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -79,9 +81,8 @@ body {
     font-size: 8vw;
     color: #ff991d;
     text-shadow: 2px 2px 10px #ff8c00cc;
-    font-family: "Exo 2", serif;
-    font-optical-sizing: auto;
     margin: 0;
+    animation: fadeIn 1s ease-in-out
 }
 
 .hero h2 {
@@ -91,6 +92,7 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: "Mynerve", serif;
+    animation: fadeIn 1s ease-in-out
 }
 
 .btn {
@@ -105,11 +107,22 @@ body {
     border-radius: 5px;
     text-decoration: none;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 1s ease-in-out
 }
 
 .btn:hover {
     transform: scale(1.1);
     box-shadow: 0 0 15px rgba(255, 140, 0, 0.8);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @media (max-width: 768px) {
@@ -124,6 +137,10 @@ body {
     .btn {
         font-size: 16px;
         padding: 12px 25px;
+    }
+
+    #navLinks {
+        display: none;
     }
 }
 
