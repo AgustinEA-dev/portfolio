@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+    // Al hacer clic en cualquier enlace, cerrar el menú
     menuLinks.forEach(link => {
         link.addEventListener('click', function () {
             movilMenu.classList.remove('active');
