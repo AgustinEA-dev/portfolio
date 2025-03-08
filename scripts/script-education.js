@@ -6,18 +6,17 @@ const modalImg = document.getElementById("modal-img");
 const closeModal = document.querySelector(".close");
 const showMoreBtn = document.getElementById("show-more-btn");
 
-let showingAll = false; // Estado del botón
+let showingAll = false;
 
 function renderImages(limit = 3) {
-    container.innerHTML = ""; // Limpia el contenedor
+    container.innerHTML = "";
 
     titles.slice(0, limit).forEach((imgData, index) => {
         const img = document.createElement("img");
         img.src = imgData.src;
         img.alt = imgData.alt;
-        img.classList.add("hover-zoom", "fade-in"); // Agregamos animación
+        img.classList.add("hover-zoom", "fade-in");
 
-        // Agregar un pequeño delay en la transición
         img.style.animationDelay = `${index * 0.1}s`;
 
         img.addEventListener("click", () => {

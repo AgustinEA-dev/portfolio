@@ -1,4 +1,6 @@
-import { translations } from "./script-data.js"
+import { translations, projects } from "./script-data.js"
+
+console.log(projects)
 
 export let currentLanguage = "en";
 

@@ -106,6 +106,6 @@ export const translations = {
             about: "Sobre mí",
             education: "Educación"
         },
-        footerText: "&copy; 2025 Agustín Álvarez. Todos los derechos reservados."
+        footerText: "&copy; 2025 Agustín Álvarez. Todos los derechos reservados.",
     }
 };

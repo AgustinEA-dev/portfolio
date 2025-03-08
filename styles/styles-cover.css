@@ -82,7 +82,7 @@ body {
     color: #ff991d;
     text-shadow: 2px 2px 10px #ff8c00cc;
     margin: 0;
-    animation: fadeIn 1s ease-in-out
+    animation: fadeIn 1.5s ease-in-out
 }
 
 .hero h2 {
@@ -92,7 +92,7 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: "Mynerve", serif;
-    animation: fadeIn 1s ease-in-out
+    animation: fadeIn 1.5s ease-in-out
 }
 
 .btn {
