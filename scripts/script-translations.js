@@ -35,3 +35,6 @@ function updateUI() {
 document.getElementById("changeLanguageButton").addEventListener("click", toggleLanguage);
 
 updateUI();
+
+const proyectCards = document.getElementsByClassName(".proyect-card")
+console.log(proyectCards)

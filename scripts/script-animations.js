@@ -11,9 +11,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-function animateTitle() {
+export function animateTitle() {
     const titles = document.querySelectorAll('#projects-h2, #about-h2, #education-h2');
     const aboutSections = document.querySelectorAll('.about-section');
+    const projectCards = document.querySelectorAll(".project-card")
 
     const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
@@ -26,12 +27,9 @@ function animateTitle() {
     }, { threshold: 0.5 });
 
     titles.forEach(title => observer.observe(title));
+    projectCards.forEach(projectCard => observer.observe(projectCard));
     aboutSections.forEach(section => observer.observe(section));
 }
 
 document.addEventListener('DOMContentLoaded', animateTitle);
-
-if (typeof renderProjects === "function") {
-    renderProjects();
-}
 

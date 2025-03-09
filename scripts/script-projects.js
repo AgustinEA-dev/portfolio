@@ -18,18 +18,6 @@ export function renderProjects() {
         `;
 
         container.appendChild(projectCard);
-
-        const observer = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = 1;
-                    entry.target.style.transform = 'translateY(0)';
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.5 });
-
-        observer.observe(projectCard);
     });
 }
 
@@ -37,4 +25,8 @@ export function renderProjects() {
 if (typeof renderProjects === "function") {
     renderProjects();
 }
+
+
+const proyectCards = document.getElementsByClassName(".proyect-card")
+console.log(proyectCards)
 

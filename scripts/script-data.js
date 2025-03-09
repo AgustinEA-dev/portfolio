@@ -58,12 +58,41 @@ export const translations = {
             about: "About",
             education: "Education"
         },
-        projects: "Projects",
-        about: "About",
-        education: "Education",
+        projects: "PROJECTS",
+        about: "ABOUT",
+        education: "EDUCATION",
         heroTitle: "Agustín Álvarez",
         heroSubtitle: "Web Developer",
         viewProjects: "View Projects",
+        viewDeploy: "View Live",
+        viewCode: "View Code",
+        projectsData: [
+            {
+                title: "To-Do List",
+                description: "A task list using a single linked list.",
+                features: "Add/remove tasks, interactive calendar, language switcher, dynamic background."
+            },
+            {
+                title: "Vegan e-commerce",
+                description: "An exercise from one of my courses.",
+                features: "JavaScript interactivity, shopping cart, responsive design."
+            },
+            {
+                title: "Visual Arts - Landing Page",
+                description: "A landing page using only HTML and CSS.",
+                features: "Fully responsive, animations with keyframes."
+            },
+            {
+                title: "Greco e-commerce",
+                description: "My first project with React.",
+                features: "Navigation, cart logic, Firebase storage."
+            },
+            {
+                title: "Animations",
+                description: "A project to practice animations with CSS and JavaScript.",
+                features: "Keyframes, event delegation, AOS library."
+            }
+        ],
         aboutTitle: "ABOUT",
         aboutSections: [
             "I have a solid foundation in <strong>HTML, CSS, and JavaScript</strong>, developing projects to improve my skills and knowledge.",
@@ -71,7 +100,7 @@ export const translations = {
             "I am actively looking for a <strong>job opportunity</strong> where I can apply my knowledge and continue growing professionally.",
             "Besides programming, I am passionate about <strong>visual art</strong> and love creating digital drawings."
         ],
-        educationTitle: "Education",
+        educationTitle: "EDUCATION",
         showMore: "Show more",
         footerLinks: {
             projects: "Projects",
@@ -86,12 +115,41 @@ export const translations = {
             about: "Sobre mí",
             education: "Educación"
         },
-        projects: "Proyectos",
-        about: "Sobre mí",
-        education: "Educación",
+        projects: "PROYECTOS",
+        about: "SOBRE MÍ",
+        education: "EDUCACIÓN",
         heroTitle: "Agustín Álvarez",
         heroSubtitle: "Desarrollador Web",
         viewProjects: "Ver Proyectos",
+        viewDeploy: "Ver en Vivo",
+        viewCode: "Código",
+        projectsData: [
+            {
+                title: "Lista de Tareas",
+                description: "Lista de tareas usando una lista enlazada simple.",
+                features: "Agregar/eliminar tareas, calendario interactivo, cambio de idioma, fondo dinámico."
+            },
+            {
+                title: "E-commerce Vegano",
+                description: "Ejercicio de uno de mis cursos.",
+                features: "Interactividad con JavaScript, carrito de compras, diseño responsivo."
+            },
+            {
+                title: "Artes Visuales - Landing Page",
+                description: "Landing page solo con HTML y CSS.",
+                features: "Totalmente responsivo, animaciones con keyframes."
+            },
+            {
+                title: "Greco e-commerce",
+                description: "Mi primer proyecto con React.",
+                features: "Navegación, lógica de carrito, almacenamiento en Firebase."
+            },
+            {
+                title: "Animaciones",
+                description: "Un proyecto para practicar animaciones con CSS y JavaScript.",
+                features: "Keyframes, delegación de eventos, biblioteca AOS."
+            }
+        ],
         aboutTitle: "SOBRE MÍ",
         aboutSections: [
             "Tengo una base sólida en <strong>HTML, CSS y JavaScript</strong>, desarrollando proyectos para mejorar mis habilidades y conocimientos.",
@@ -99,7 +157,7 @@ export const translations = {
             "Estoy buscando activamente una <strong>oportunidad laboral</strong> donde pueda aplicar mis conocimientos y seguir creciendo profesionalmente.",
             "Además de la programación, soy un amante del <strong>arte visual</strong> y me encanta crear dibujos digitales."
         ],
-        educationTitle: "Educación",
+        educationTitle: "EDUCACIÓN",
         showMore: "Mostrar más",
         footerLinks: {
             projects: "Proyectos",
@@ -109,3 +167,4 @@ export const translations = {
         footerText: "&copy; 2025 Agustín Álvarez. Todos los derechos reservados.",
     }
 };
+
