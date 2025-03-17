@@ -20,8 +20,8 @@ export const projects = [
         description: "This work is an other excersise from one of the courses I took.",
         features: "The objective of this proyect was to develop a landing page using only HTML and CSS. Also the page had to be fully responsive trough media queries and I had to incorporate some animations using keyframes.",
         imageUrl: "assets/img-visual-arts-page.jpg",
-        linkDeploy: "https://lnkd.in/dsAyWEgS",
-        linkGitHub: "https://lnkd.in/dqP9D6qP"
+        linkDeploy: "https://integrador-1-ruby.vercel.app/",
+        linkGitHub: "https://github.com/AgustinEA-dev/integrador-1-html-css.git"
     },
     {
         title: "Greco e-commerce",
