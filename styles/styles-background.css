@@ -6,7 +6,7 @@
 
 header {
     margin: 0;
-    height: 100dvh;
+    height: 100vh;
     transition: height 0.3s ease-in-out;
     background: radial-gradient(circle, #0f0c29, #302b63, #24243e);
     overflow: hidden;
@@ -14,7 +14,7 @@ header {
     align-items: center;
     justify-content: center;
     position: relative;
-    transition: height 0.3s ease-in-out;
+    /* transition: height 0.3s ease-in-out; */
 }
 
 .neon-border {
