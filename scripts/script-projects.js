@@ -23,14 +23,8 @@ export function renderProjects(language = "en") {
             <p>${project.description} ${project.features}</p>
             <a href="${projects[index].linkDeploy}" target="_blank">${translations[language].viewDeploy}</a>
             <a href="${projects[index].linkGitHub}" target="_blank">${translations[language].viewCode}</a>
-            <button>toggle</button>
         `;
 
         container.appendChild(projectCard);
     });
 }
-
-if (typeof renderProjects === "function") {
-    renderProjects();
-}
-
