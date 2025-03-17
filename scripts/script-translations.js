@@ -1,4 +1,4 @@
-import { translations, projects } from "./script-data.js"
+import { translations } from "./script-data.js";
 import { renderProjects } from "./script-projects.js";
 
 export let currentLanguage = "en";
@@ -6,7 +6,9 @@ export let currentLanguage = "en";
 function toggleLanguage() {
     currentLanguage = (currentLanguage === 'es') ? 'en' : 'es';
     updateUI();
+
 }
+
 function updateUI() {
     document.querySelector("nav ul li:nth-child(1) a").innerText = translations[currentLanguage].navbar.projects;
     document.querySelector("nav ul li:nth-child(2) a").innerText = translations[currentLanguage].navbar.about;
@@ -28,11 +30,11 @@ function updateUI() {
         section.innerHTML = translations[currentLanguage].aboutSections[index];
     });
 
-    // Renderizar proyectos en el idioma seleccionado
+    // 🔄 Llamar a renderProjects para actualizar las tarjetas de los proyectos
     renderProjects(currentLanguage);
+
 }
 
 document.getElementById("changeLanguageButton").addEventListener("click", toggleLanguage);
 
 updateUI();
-
