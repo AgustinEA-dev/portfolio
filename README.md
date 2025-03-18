@@ -6,10 +6,6 @@ Este es mi portafolio web donde presento mis proyectos, habilidades y experienci
 
 1. [Descripción](#descripción)
 2. [Tecnologías Utilizadas](#tecnologías-utilizadas)
-3. [Instalación](#instalación)
-4. [Uso](#uso)
-5. [Contribuciones](#contribuciones)
-6. [Licencia](#licencia)
 
 ## Descripción
 
