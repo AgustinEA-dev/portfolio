@@ -119,3 +119,9 @@
         padding: 8px 16px;
     }
 }
+
+@media (max-width: 350px) {
+    #education-h2 {
+        font-size: 50px;
+    }
+}

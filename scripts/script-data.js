@@ -58,6 +58,11 @@ export const translations = {
             about: "About",
             education: "Education"
         },
+        movil: {
+            projects: "Projects",
+            about: "About",
+            education: "Education",
+        },
         projects: "PROJECTS",
         about: "ABOUT",
         education: "EDUCATION",
@@ -70,27 +75,27 @@ export const translations = {
             {
                 title: "To-Do List",
                 description: "A task list using a single linked list.",
-                features: "Add/remove tasks, interactive calendar, language switcher, dynamic background."
+                features: ["Add/remove tasks, interactive calendar, language switcher, dynamic background."]
             },
             {
                 title: "Vegan e-commerce",
                 description: "An exercise from one of my courses.",
-                features: "JavaScript interactivity, shopping cart, responsive design."
+                features: ["JavaScript interactivity, shopping cart, responsive design."]
             },
             {
                 title: "Visual Arts - Landing Page",
                 description: "A landing page using only HTML and CSS.",
-                features: "Fully responsive, animations with keyframes."
+                features: ["Fully responsive, animations with keyframes."]
             },
             {
                 title: "Greco e-commerce",
                 description: "My first project with React.",
-                features: "Navigation, cart logic, Firebase storage."
+                features: ["Navigation, cart logic, Firebase storage."]
             },
             {
                 title: "Animations",
                 description: "A project to practice animations with CSS and JavaScript.",
-                features: "Keyframes, event delegation, AOS library."
+                features: ["Keyframes, event delegation, AOS library."]
             }
         ],
         aboutTitle: "ABOUT",
@@ -115,6 +120,11 @@ export const translations = {
             about: "Sobre mí",
             education: "Educación"
         },
+        movil: {
+            projects: "Projectos",
+            about: "Sobre mí",
+            education: "Educación",
+        },
         projects: "PROYECTOS",
         about: "SOBRE MÍ",
         education: "EDUCACIÓN",
@@ -127,27 +137,27 @@ export const translations = {
             {
                 title: "Lista de Tareas",
                 description: "Lista de tareas usando una lista enlazada simple.",
-                features: "Agregar/eliminar tareas, calendario interactivo, cambio de idioma, fondo dinámico."
+                features: ["Agregar/eliminar tareas, calendario interactivo, cambio de idioma, fondo dinámico."]
             },
             {
                 title: "E-commerce Vegano",
                 description: "Ejercicio de uno de mis cursos.",
-                features: "Interactividad con JavaScript, carrito de compras, diseño responsivo."
+                features: ["Interactividad con JavaScript, carrito de compras, diseño responsivo."]
             },
             {
                 title: "Artes Visuales - Landing Page",
                 description: "Landing page solo con HTML y CSS.",
-                features: "Totalmente responsivo, animaciones con keyframes."
+                features: ["Totalmente responsivo, animaciones con keyframes."]
             },
             {
                 title: "Greco e-commerce",
                 description: "Mi primer proyecto con React.",
-                features: "Navegación, lógica de carrito, almacenamiento en Firebase."
+                features: ["Navegación, lógica de carrito, almacenamiento en Firebase."]
             },
             {
                 title: "Animaciones",
                 description: "Un proyecto para practicar animaciones con CSS y JavaScript.",
-                features: "Keyframes, delegación de eventos, biblioteca AOS."
+                features: ["Keyframes, delegación de eventos, biblioteca AOS."]
             }
         ],
         aboutTitle: "SOBRE MÍ",
@@ -167,4 +177,3 @@ export const translations = {
         footerText: "&copy; 2025 Agustín Álvarez. Todos los derechos reservados.",
     }
 };
-

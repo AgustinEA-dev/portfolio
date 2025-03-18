@@ -28,3 +28,5 @@ export function renderProjects(language = "en") {
         container.appendChild(projectCard);
     });
 }
+
+renderProjects()

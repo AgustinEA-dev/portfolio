@@ -6,13 +6,15 @@ export let currentLanguage = "en";
 function toggleLanguage() {
     currentLanguage = (currentLanguage === 'es') ? 'en' : 'es';
     updateUI();
-
 }
 
 function updateUI() {
     document.querySelector("nav ul li:nth-child(1) a").innerText = translations[currentLanguage].navbar.projects;
     document.querySelector("nav ul li:nth-child(2) a").innerText = translations[currentLanguage].navbar.about;
     document.querySelector("nav ul li:nth-child(3) a").innerText = translations[currentLanguage].navbar.education;
+    document.querySelector(".movil-menu ul li:nth-child(1) a").innerText = translations[currentLanguage].movil.projects
+    document.querySelector(".movil-menu ul li:nth-child(2) a").innerText = translations[currentLanguage].movil.about
+    document.querySelector(".movil-menu ul li:nth-child(3) a").innerText = translations[currentLanguage].movil.education
     document.querySelector("#projects-h2").innerText = translations[currentLanguage].projects;
     document.querySelector("#about-h2").innerText = translations[currentLanguage].aboutTitle;
     document.querySelector("#education-h2").innerText = translations[currentLanguage].educationTitle;
@@ -29,10 +31,6 @@ function updateUI() {
     aboutSections.forEach((section, index) => {
         section.innerHTML = translations[currentLanguage].aboutSections[index];
     });
-
-    // 🔄 Llamar a renderProjects para actualizar las tarjetas de los proyectos
-    renderProjects(currentLanguage);
-
 }
 
 document.getElementById("changeLanguageButton").addEventListener("click", toggleLanguage);
