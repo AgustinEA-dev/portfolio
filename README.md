@@ -14,7 +14,6 @@ Este es un portafolio personal que he construido utilizando HTML, CSS, y JavaScr
 - **Proyectos:** Una galería de mis proyectos desarrollados.
 - **Sobre mí:** Información acerca de mi experiencia y habilidades.
 - **Educación:** Mi formación académica y cursos que he realizado.
-- **Contacto:** Formas de contactarme para posibles colaboraciones o empleos.
 
 ## Tecnologías Utilizadas
 
@@ -22,4 +21,20 @@ Este es un portafolio personal que he construido utilizando HTML, CSS, y JavaScr
 - **CSS3**: Diseño y estilo del sitio.
 - **JavaScript**: Interactividad y lógica.
 - **Font Awesome**: Iconos para mejorar la apariencia.
-- **Git & GitHub**: Control de versiones y colaboración.
+- **Git & GitHub**: Control de versiones
+
+EN/
+
+Description
+This is a personal portfolio I have built using HTML, CSS, and JavaScript. In it, you can find:
+
+Projects: A gallery of my developed projects.
+About Me: Information about my experience and skills.
+Education: My academic background and courses I have taken.
+
+Technologies Used
+HTML5: Structure of the content.
+CSS3: Design and styling of the site.
+JavaScript: Interactivity and logic.
+Font Awesome: Icons to enhance the appearance.
+Git & GitHub: Version control
